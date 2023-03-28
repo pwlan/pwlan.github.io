@@ -4,8 +4,8 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "version.json": "32473dccdada1962730c42a4b45adb5b",
-"index.html": "7afab80dcaabe40496dd618ce324c576",
-"/": "7afab80dcaabe40496dd618ce324c576",
+"index.html": "3f70324107d65ec854bd851efaa7e7ca",
+"/": "3f70324107d65ec854bd851efaa7e7ca",
 "main.dart.js": "466ffe299f3c262b687a45d93fba4020",
 "flutter.js": "a85fcf6324d3c4d3ae3be1ae4931e9c5",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
@@ -37,7 +37,6 @@ const RESOURCES = {
 "assets/assets/images/tree.png": "0cf05865a00e326c6004fb0d3481026e",
 "assets/assets/images/robot.png": "e1bb2cf1d63eaea632add0ae3b62eeae",
 "assets/assets/images/ground.png": "846aa99b57b300f74fbf21012a53ca93",
-"assets/assets/images/dinoSprites.png": "b35f4dbe1513c61146da143674613790",
 "assets/assets/images/bg2.png": "f362d80c2577a97d37e1cf0e3896fcda",
 "assets/assets/images/dark-dino.png": "fc2e80c8fabb29a8e670b1911b4216f3",
 "assets/assets/images/dino-dark.png": "b80c4074c8907d1114ec38c2070f21a7",
