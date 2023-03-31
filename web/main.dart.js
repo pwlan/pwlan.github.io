@@ -9752,7 +9752,7 @@ AG:function AG(){},
 a_2(a,b){var s=null
 return new A.uA(b,s,s,s,s,B.a0,s,!1,s,a,s)},
 acB(a){A.l6(a)
-return A.a7a(B.hN,B.u_,B.tX,1)},
+return A.a7a(B.hN,B.u_,B.tY,1)},
 uA:function uA(a,b,c,d,e,f,g,h,i,j,k){var _=this
 _.c=a
 _.d=b
@@ -26436,10 +26436,10 @@ if(r!=null){r.l(f)
 s=$.av()
 q=s.aV()
 q.sak(0,A.bc(204,0,0,0))
-q=A.a1j(q,32)
+q=A.a1j(q,16)
 s=s.aV()
 s.sak(0,A.bc(B.d.c3(127.5),0,0,0))
-s=A.a1j(s,64)
+s=A.a1j(s,32)
 p=new Float64Array(2)
 o=new Float64Array(2)
 n=s.Q
@@ -26451,7 +26451,7 @@ i=new Float64Array(2)
 h=new A.aL(j,i)
 h.a3(k)
 h.G()
-s=new A.vF(q,s,new A.b(p),new A.b(o),!1,m,B.tZ,e,l,h,B.u,0,new A.O([]),new A.O([]))
+s=new A.vF(q,s,new A.b(p),new A.b(o),!1,m,B.tX,e,l,h,B.u,0,new A.O([]),new A.O([]))
 s.aq(B.u,e,e,0,e,e,e,n)
 q=i[0]
 s.a0=q/2
@@ -26554,7 +26554,7 @@ m.toString
 s=A.a([p,B.bS,o,n,A.yn("Your Time was "+B.f.bG(A.c2(0,m.a-s.ry.a).a,1e6)+" seconds.",B.h_),B.bS],t.V)
 if(r.a!==q.a)s.push(A.a_2(B.CU,new A.L9(this)))
 s.push(B.bS)
-return A.ZO(A.a1y(new A.hZ(B.tY,A.ZS(s,B.nk,B.cX),null),B.c2,B.ch))}}
+return A.ZO(A.a1y(new A.hZ(B.tZ,A.ZS(s,B.nk,B.cX),null),B.c2,B.ch))}}
 A.L9.prototype={
 $0(){this.a.c.mv()},
 $S:0}
@@ -44484,9 +44484,9 @@ B.tV=new A.aI(-38e3)
 B.hM=new A.bO(0,0,0,0)
 B.hN=new A.bO(16,0,16,0)
 B.tW=new A.bO(16,16,16,16)
-B.tX=new A.bO(4,0,4,0)
-B.tY=new A.bO(64,64,64,64)
-B.tZ=new A.bO(80,0,0,80)
+B.tX=new A.bO(40,0,0,40)
+B.tY=new A.bO(4,0,4,0)
+B.tZ=new A.bO(64,64,64,64)
 B.u_=new A.bO(8,0,8,0)
 B.u0=new A.bO(96,96,96,96)
 B.u1=new A.n6(0,"noOpinion")
