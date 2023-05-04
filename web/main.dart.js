@@ -93,7 +93,7 @@ if(A.a1a(r,"webgl2",null)!=null){s=$.cq()
 if(s===B.F)return 1
 return 2}if(A.a1a(r,"webgl",null)!=null)return 1
 return-1},
-Z(){return $.ap.a3()},
+Z(){return $.ap.a4()},
 bn(a){return a.BlendMode},
 a0Q(a){return a.PaintStyle},
 Zq(a){return a.StrokeCap},
@@ -305,7 +305,7 @@ a70(){var s=new A.k6(B.q2,B.b7,B.aV)
 s.eK(null,t.e)
 return s},
 l7(){if($.a2u)return
-$.aE.a3().gmz().b.push(A.abG())
+$.aE.a4().gmz().b.push(A.abG())
 $.a2u=!0},
 a9K(a){A.l7()
 if(B.b.E($.of,a))return
@@ -337,7 +337,7 @@ a0V(a){var s,r,q,p=null,o=A.a([],t.jY)
 t.Ar.a(a)
 s=A.a([],t.zp)
 r=A.a([],t.Cy)
-q=$.ap.a3().ParagraphBuilder.MakeFromFontProvider(a.a,$.aE.a3().gEw().e)
+q=$.ap.a4().ParagraphBuilder.MakeFromFontProvider(a.a,$.aE.a4().gEw().e)
 r.push(A.Zt(p,p,p,p,p,p,a.b,p,p,a.c,a.f,p,a.e,p,a.d,a.r,p,p,p,p,p))
 return new A.GO(q,a,o,s,r)},
 a_R(a,b){var s=A.a([],t.s)
@@ -352,7 +352,7 @@ s[1]=(a.gF(a)>>>8&255)/255
 s[2]=(a.gF(a)&255)/255
 s[3]=(a.gF(a)>>>24&255)/255
 return s},
-a3W(a,b,c,d,e,f){var s,r=e?5:4,q=A.b4(B.d.ci((c.gF(c)>>>24&255)*0.039),c.gF(c)>>>16&255,c.gF(c)>>>8&255,c.gF(c)&255),p=A.b4(B.d.ci((c.gF(c)>>>24&255)*0.25),c.gF(c)>>>16&255,c.gF(c)>>>8&255,c.gF(c)&255),o=t.e.a({ambient:A.qB(q),spot:A.qB(p)}),n=$.ap.a3().computeTonalColors(o),m=b.gS(),l=new Float32Array(3)
+a3W(a,b,c,d,e,f){var s,r=e?5:4,q=A.b4(B.d.ci((c.gF(c)>>>24&255)*0.039),c.gF(c)>>>16&255,c.gF(c)>>>8&255,c.gF(c)&255),p=A.b4(B.d.ci((c.gF(c)>>>24&255)*0.25),c.gF(c)>>>16&255,c.gF(c)>>>8&255,c.gF(c)&255),o=t.e.a({ambient:A.qB(q),spot:A.qB(p)}),n=$.ap.a4().computeTonalColors(o),m=b.gS(),l=new Float32Array(3)
 l[2]=f*d
 s=new Float32Array(3)
 s[0]=0
@@ -14334,8 +14334,8 @@ jt(a,b,c,d){var s,r,q=d.at,p=this.a,o=b.b,n=c.a,m=c.b
 if(q===B.aW){o===$&&A.f()
 A.T(p,"drawImageCubic",[o.gS(),n,m,0.3333333333333333,0.3333333333333333,d.gS()])}else{o===$&&A.f()
 o=o.gS()
-s=q===B.aV?$.ap.a3().FilterMode.Nearest:$.ap.a3().FilterMode.Linear
-r=q===B.bu?$.ap.a3().MipmapMode.Linear:$.ap.a3().MipmapMode.None
+s=q===B.aV?$.ap.a4().FilterMode.Nearest:$.ap.a4().FilterMode.Linear
+r=q===B.bu?$.ap.a4().MipmapMode.Linear:$.ap.a4().MipmapMode.None
 A.T(p,"drawImageOptions",[o,n,m,s,r,d.gS()])}},
 hj(a,b,c,d){var s,r,q,p,o=d.at,n=this.a,m=a.b
 if(o===B.aW){m===$&&A.f()
@@ -14343,8 +14343,8 @@ A.T(n,"drawImageRectCubic",[m.gS(),A.cR(b),A.cR(c),0.3333333333333333,0.33333333
 m=m.gS()
 s=A.cR(b)
 r=A.cR(c)
-q=o===B.aV?$.ap.a3().FilterMode.Nearest:$.ap.a3().FilterMode.Linear
-p=o===B.bu?$.ap.a3().MipmapMode.Linear:$.ap.a3().MipmapMode.None
+q=o===B.aV?$.ap.a4().FilterMode.Nearest:$.ap.a4().FilterMode.Linear
+p=o===B.bu?$.ap.a4().MipmapMode.Linear:$.ap.a4().MipmapMode.None
 A.T(n,"drawImageRectOptions",[m,s,r,q,p,d.gS()])}},
 i5(a,b,c){A.T(this.a,"drawLine",[a.a,a.b,b.a,b.b,c.gS()])},
 ju(a){this.a.drawPaint(a.gS())},
@@ -14469,8 +14469,8 @@ o=o.b
 if(p===B.aW){n===$&&A.f()
 A.T(a,"drawImageCubic",[n.gS(),m,o,0.3333333333333333,0.3333333333333333,q.gS()])}else{n===$&&A.f()
 n=n.gS()
-s=p===B.aV?$.ap.a3().FilterMode.Nearest:$.ap.a3().FilterMode.Linear
-r=p===B.bu?$.ap.a3().MipmapMode.Linear:$.ap.a3().MipmapMode.None
+s=p===B.aV?$.ap.a4().FilterMode.Nearest:$.ap.a4().FilterMode.Linear
+r=p===B.bu?$.ap.a4().MipmapMode.Linear:$.ap.a4().MipmapMode.None
 A.T(a,"drawImageOptions",[n,m,o,s,r,q.gS()])}},
 B(){this.a.B()}}
 A.rH.prototype={
@@ -14480,8 +14480,8 @@ A.T(a,"drawImageRectCubic",[l.gS(),A.cR(n),A.cR(m),0.3333333333333333,0.33333333
 l=l.gS()
 n=A.cR(n)
 m=A.cR(m)
-s=o===B.aV?$.ap.a3().FilterMode.Nearest:$.ap.a3().FilterMode.Linear
-r=o===B.bu?$.ap.a3().MipmapMode.Linear:$.ap.a3().MipmapMode.None
+s=o===B.aV?$.ap.a4().FilterMode.Nearest:$.ap.a4().FilterMode.Linear
+r=o===B.bu?$.ap.a4().MipmapMode.Linear:$.ap.a4().MipmapMode.None
 A.T(a,"drawImageRectOptions",[l,n,m,s,r,p.gS()])}},
 B(){this.a.B()}}
 A.rK.prototype={
@@ -14713,10 +14713,10 @@ m(a){return this.b.m(0)}}
 A.GK.prototype={}
 A.rA.prototype={
 kP(){var s,r=this.a
-if((r.a>>>24&255)/255===0){r=$.ap.a3().ColorFilter
+if((r.a>>>24&255)/255===0){r=$.ap.a4().ColorFilter
 s=$.a0U
 if(s==null)s=A.a6Y()
-return r.MakeMatrix(s)}r=$.ap.a3().ColorFilter.MakeBlend(A.F2($.qF(),r),$.Zc()[this.b.a])
+return r.MakeMatrix(s)}r=$.ap.a4().ColorFilter.MakeBlend(A.F2($.qF(),r),$.Zc()[this.b.a])
 if(r==null)throw A.e(A.ci("Invalid parameters for blend mode ColorFilter",null))
 return r},
 gt(a){return A.R(this.a,this.b,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
@@ -14725,13 +14725,13 @@ if(A.w(this)!==J.Q(b))return!1
 return b instanceof A.rA&&b.a.j(0,this.a)&&b.b===this.b},
 m(a){return"ColorFilter.mode("+this.a.m(0)+", "+this.b.m(0)+")"}}
 A.GN.prototype={
-kP(){return $.ap.a3().ColorFilter.MakeLinearToSRGBGamma()},
+kP(){return $.ap.a4().ColorFilter.MakeLinearToSRGBGamma()},
 j(a,b){if(b==null)return!1
 return A.w(this)===J.Q(b)},
 gt(a){return A.dE(A.w(this))},
 m(a){return"ColorFilter.linearToSrgbGamma()"}}
 A.GQ.prototype={
-kP(){return $.ap.a3().ColorFilter.MakeSRGBToLinearGamma()},
+kP(){return $.ap.a4().ColorFilter.MakeSRGBToLinearGamma()},
 j(a,b){if(b==null)return!1
 return A.w(this)===J.Q(b)},
 gt(a){return A.dE(A.w(this))},
@@ -14954,7 +14954,7 @@ c[a2]=B.aZ.kf(k,h)}}if(B.b.eQ(c,new A.Kn())){a=A.a([],t.t)
 for(a2=0;a2<a1;++a2)if(!c[a2])a.push(n[a2])
 a0.f.G(0,a)
 if(!a0.r){a0.r=!0
-$.aE.a3().gmz().b.push(a0.gEg())}}},
+$.aE.a4().gmz().b.push(a0.gEg())}}},
 Eh(){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4=this
 a4.r=!1
 s=a4.f
@@ -14985,7 +14985,7 @@ while(!0){if(!(a3<s)){a2=!1
 break}if(!q[a3]){a2=!0
 break}++a3}if(!a2)return}for(a=r.length-1;a>=0;--a)if(q[a])B.b.mC(r,a)
 A.a01(r)},
-MF(a,b){var s=$.ap.a3().Typeface.MakeFreeTypeFaceFromData(b.buffer)
+MF(a,b){var s=$.ap.a4().Typeface.MakeFreeTypeFaceFromData(b.buffer)
 if(s==null){$.ch().$1("Failed to parse fallback font "+a+" as a font.")
 return}this.d.push(A.a_9(b,a,s))
 if(a==="Noto Emoji"){s=this.e
@@ -15100,7 +15100,7 @@ $S:93}
 A.jd.prototype={
 vy(){var s,r,q,p,o,n,m=this,l=m.e
 if(l!=null){l.delete()
-m.e=null}m.e=$.ap.a3().TypefaceFontProvider.Make()
+m.e=null}m.e=$.ap.a4().TypefaceFontProvider.Make()
 l=m.d
 l.L(0)
 for(s=m.c,r=s.length,q=t.e,p=0;p<s.length;s.length===r||(0,A.Y)(s),++p){o=s[p]
@@ -15113,7 +15113,7 @@ J.fs(l.b9(0,n,new A.Sa()),q.a(new self.window.flutterCanvasKit.Font(o.c)))}},
 pZ(a,b){return this.Lw(a,b)},
 Lw(a,b){var s=0,r=A.A(t.H),q,p=this,o
 var $async$pZ=A.B(function(c,d){if(c===1)return A.x(d,r)
-while(true)switch(s){case 0:o=$.ap.a3().Typeface.MakeFreeTypeFaceFromData(a.buffer)
+while(true)switch(s){case 0:o=$.ap.a4().Typeface.MakeFreeTypeFaceFromData(a.buffer)
 if(o!=null){p.c.push(A.a_9(a,b,o))
 p.vy()}else{$.ch().$1('Failed to parse font family "'+b+'"')
 s=1
@@ -15174,7 +15174,7 @@ A.Sa.prototype={
 $0(){return A.a([],t.J)},
 $S:80}
 A.Sb.prototype={
-$3(a,b,c){var s=A.bK(a,0,null),r=$.ap.a3().Typeface.MakeFreeTypeFaceFromData(s.buffer)
+$3(a,b,c){var s=A.bK(a,0,null),r=$.ap.a4().Typeface.MakeFreeTypeFaceFromData(s.buffer)
 if(r!=null)return A.a_9(s,c,r)
 else{$.ch().$1("Failed to load font "+c+" at "+b)
 $.ch().$1("Verify that "+b+" contains a valid font.")
@@ -15230,8 +15230,8 @@ q=s.d
 q.toString
 r.yX(0,s,q)
 o.b!==$&&A.cv()
-o.b=s}else{s=$.ap.a3().AlphaType.Premul
-r=$.ap.a3().ColorType.RGBA_8888
+o.b=s}else{s=$.ap.a4().AlphaType.Premul
+r=$.ap.a4().ColorType.RGBA_8888
 p=A.a7_(s,self.window.flutterCanvasKit.ColorSpace.SRGB,r,B.i7,a)
 if(p==null){$.ch().$1("Unable to encode image to bytes. We will not be able to resurrect it once it has been garbage collected.")
 return}s=new A.l6(A.al(t.mD),new A.GM(B.d.J(a.width()),B.d.J(a.height()),p),t.c9)
@@ -15271,8 +15271,8 @@ s===$&&A.f()
 return"["+B.d.J(s.gS().width())+"\xd7"+B.d.J(this.b.gS().height())+"]"},
 $iiK:1}
 A.GM.prototype={
-$0(){var s=$.ap.a3(),r=$.ap.a3().AlphaType.Premul,q=this.a
-q=s.MakeImage(t.e.a({width:q,height:this.b,colorType:$.ap.a3().ColorType.RGBA_8888,alphaType:r,colorSpace:self.window.flutterCanvasKit.ColorSpace.SRGB}),A.bK(this.c.buffer,0,null),4*q)
+$0(){var s=$.ap.a4(),r=$.ap.a4().AlphaType.Premul,q=this.a
+q=s.MakeImage(t.e.a({width:q,height:this.b,colorType:$.ap.a4().ColorType.RGBA_8888,alphaType:r,colorSpace:self.window.flutterCanvasKit.ColorSpace.SRGB}),A.bK(this.c.buffer,0,null),4*q)
 if(q==null)throw A.e(A.mZ("Failed to resurrect image from pixels."))
 return q},
 $S:41}
@@ -15280,7 +15280,7 @@ A.m4.prototype={
 gpN(a){return this.b},
 $ia1q:1}
 A.rz.prototype={
-ee(){var s,r=this,q=$.ap.a3().MakeAnimatedImageFromEncoded(r.c)
+ee(){var s,r=this,q=$.ap.a4().MakeAnimatedImageFromEncoded(r.c)
 if(q==null)throw A.e(A.mZ("Failed to decode image data.\nImage source: "+r.b))
 r.d=B.d.J(q.getFrameCount())
 B.d.J(q.getRepetitionCount())
@@ -15352,9 +15352,9 @@ j=p.x
 i=p.f
 i===$&&A.f()
 p.x=B.f.bZ(j+1,i)
-i=$.ap.a3()
-j=$.ap.a3().AlphaType.Premul
-o=$.ap.a3().ColorType.RGBA_8888
+i=$.ap.a4()
+j=$.ap.a4().AlphaType.Premul
+o=$.ap.a4().ColorType.RGBA_8888
 n=self.window.flutterCanvasKit.ColorSpace.SRGB
 n=A.T(i,"MakeLazyImageFromTextureSource",[k,l.a({width:B.d.J(k.displayWidth),height:B.d.J(k.displayHeight),colorType:o,alphaType:j,colorSpace:n})])
 j=k.duration
@@ -15549,7 +15549,7 @@ A.Hh.prototype={}
 A.rT.prototype={
 ee(){return this.uS()},
 fN(){return this.uS()},
-uS(){var s=$.ap.a3().MaskFilter.MakeBlur($.a5S()[this.b.a],this.c,!0)
+uS(){var s=$.ap.a4().MaskFilter.MakeBlur($.a5S()[this.b.a],this.c,!0)
 s.toString
 return s},
 cS(a){var s=this.a
@@ -15710,7 +15710,7 @@ cS(a){var s
 this.c=this.gS().toCmds()
 s=this.a
 if(s!=null)s.delete()},
-fN(){var s=$.ap.a3().Path,r=this.c
+fN(){var s=$.ap.a4().Path,r=this.c
 r===$&&A.f()
 r=s.MakeFromCmds(r)
 s=this.b
@@ -15737,10 +15737,10 @@ o=m.getCanvas()
 o.clear(A.F2($.qF(),B.aa))
 o.drawPicture(p.gS())
 m=m.makeImageSnapshot()
-o=$.ap.a3().AlphaType.Premul
-n=t.e.a({width:a,height:b,colorType:$.ap.a3().ColorType.RGBA_8888,alphaType:o,colorSpace:self.window.flutterCanvasKit.ColorSpace.SRGB})
+o=$.ap.a4().AlphaType.Premul
+n=t.e.a({width:a,height:b,colorType:$.ap.a4().ColorType.RGBA_8888,alphaType:o,colorSpace:self.window.flutterCanvasKit.ColorSpace.SRGB})
 m=m.readPixels(0,0,n)
-m=$.ap.a3().MakeImage(n,m,4*a)
+m=$.ap.a4().MakeImage(n,m,4*a)
 if(m==null)A.a3(A.a5("Unable to convert image pixels into SkImage."))
 q=A.Zs(m,null)
 s=1
@@ -15781,7 +15781,7 @@ r=new A.cG(s.a.a.getCanvas())
 q=new A.Ks(r,null,$.Z3())
 q.Mw(a,!0)
 p=A.fb().a
-if(!p.as)$.aE.a3().b.prepend(p.x)
+if(!p.as)$.aE.a4().b.prepend(p.x)
 p.as=!0
 J.a6A(s)
 $.Z3().Ar(0)}finally{this.H7()}},
@@ -15818,7 +15818,7 @@ case 4:o=$.ap
 s=5
 return A.I(A.Yd(),$async$m8)
 case 5:o.b=c
-self.window.flutterCanvasKit=$.ap.a3()
+self.window.flutterCanvasKit=$.ap.a4()
 case 3:$.aE.b=q
 return A.y(null,r)}})
 return A.z($async$m8,r)},
@@ -15879,7 +15879,7 @@ if(c!=null)o.fontSize=c
 if(l)o.heightMultiplier=f
 o.fontFamilies=A.a_R(b,null)
 m.textStyle=o
-n=$.ap.a3().ParagraphStyle(m)
+n=$.ap.a4().ParagraphStyle(m)
 return new A.rV(n,b,c,f,e,d,s?null:a0.c)},
 x7(a){return A.a0V(a)},
 MP(a){A.add()
@@ -15891,7 +15891,7 @@ A.ip.prototype={
 cS(a){var s=this.a
 if(s!=null)s.delete()}}
 A.rS.prototype={
-ee(){var s=this,r=$.ap.a3().Shader,q=A.a4m(s.d),p=A.a4m(s.e),o=A.ae0(s.f),n=A.ae2(s.r),m=$.a61()[s.w.a],l=s.x
+ee(){var s=this,r=$.ap.a4().Shader,q=A.a4m(s.d),p=A.a4m(s.e),o=A.ae0(s.f),n=A.ae2(s.r),m=$.a61()[s.w.a],l=s.x
 return A.T(r,"MakeLinearGradient",[q,p,o,n,m,l!=null?A.ae3(l):null])},
 fN(){return this.ee()}}
 A.xF.prototype={
@@ -16012,11 +16012,11 @@ l.c=l.b=!1
 r=$.qq
 if((r==null?$.qq=A.a_N():r)!==-1){r=$.cF
 r=!(r==null?$.cF=A.hy(self.window.flutterConfiguration):r).gwO()}else r=!1
-if(r){r=$.ap.a3()
+if(r){r=$.ap.a4()
 n=$.qq
 if(n==null)n=$.qq=A.a_N()
 m=l.r=B.d.J(r.GetWebGLContext(o,t.e.a({antialias:0,majorVersion:n})))
-if(m!==0){l.f=$.ap.a3().MakeGrContext(m)
+if(m!==0){l.f=$.ap.a4().MakeGrContext(m)
 l.vY()}}l.x.append(o)
 l.at=p}else{r=$.bP().w
 if(r==null){r=self.window.devicePixelRatio
@@ -16053,7 +16053,7 @@ if((q==null?$.cF=A.hy(self.window.flutterConfiguration):q).gwO()){q=r.y
 q.toString
 return r.kW(q,"CPU rendering forced by application")}else if(r.r===0){q=r.y
 q.toString
-return r.kW(q,"Failed to initialize WebGL context")}else{q=$.ap.a3()
+return r.kW(q,"Failed to initialize WebGL context")}else{q=$.ap.a4()
 s=r.f
 s.toString
 s=q.MakeOnScreenGLSurface(s,B.d.dI(a.a),B.d.dI(a.b),self.window.flutterCanvasKit.ColorSpace.SRGB)
@@ -16061,7 +16061,7 @@ if(s==null){q=r.y
 q.toString
 return r.kW(q,"Failed to initialize WebGL surface")}return new A.t0(s)}}},
 kW(a,b){if(!$.a2A){$.ch().$1("WARNING: Falling back to CPU-only rendering. "+b+".")
-$.a2A=!0}return new A.t0($.ap.a3().MakeSWCanvasSurface(a))},
+$.a2A=!0}return new A.t0($.ap.a4().MakeSWCanvasSurface(a))},
 B(){var s=this,r=s.y
 if(r!=null)A.dQ(r,"webglcontextlost",s.d,!1)
 r=s.y
@@ -16102,11 +16102,11 @@ A.GR.prototype={
 $0(){var s,r,q,p,o=this.a,n=o.a,m=o.b,l=o.c,k=o.e,j=o.f,i=o.w,h=o.z,g=o.Q,f=o.as,e=o.at,d=o.ch,c=o.CW,b=t.e.a({})
 if(d!=null)b.backgroundColor=A.qB(new A.D(d.w))
 if(n!=null)b.color=A.qB(n)
-if(m!=null){s=B.d.J($.ap.a3().NoDecoration)
+if(m!=null){s=B.d.J($.ap.a4().NoDecoration)
 r=m.a
-if((r|1)===r)s=(s|B.d.J($.ap.a3().UnderlineDecoration))>>>0
-if((r|2)===r)s=(s|B.d.J($.ap.a3().OverlineDecoration))>>>0
-if((r|4)===r)s=(s|B.d.J($.ap.a3().LineThroughDecoration))>>>0
+if((r|1)===r)s=(s|B.d.J($.ap.a4().UnderlineDecoration))>>>0
+if((r|2)===r)s=(s|B.d.J($.ap.a4().OverlineDecoration))>>>0
+if((r|4)===r)s=(s|B.d.J($.ap.a4().LineThroughDecoration))>>>0
 b.decoration=s}if(k!=null)b.decorationThickness=k
 if(l!=null)b.decorationColor=A.qB(l)
 if(i!=null)b.textBaseline=$.a5Z()[i.a]
@@ -16125,7 +16125,7 @@ o.dx=p
 q=p}b.fontFamilies=q
 if(j!=null||!1)b.fontStyle=A.a0c(j,o.r)
 if(c!=null)b.foregroundColor=A.qB(new A.D(c.w))
-return $.ap.a3().TextStyle(b)},
+return $.ap.a4().TextStyle(b)},
 $S:41}
 A.mo.prototype={
 iZ(a){var s,r,q,p,o,n,m,l,k,j,i,h,g=this,f=g.a
@@ -17174,7 +17174,7 @@ else A.a3(A.cc("Unrecognized message "+A.p(k)+" sent to dev.flutter/channel-buff
 He(a,b,c){var s,r,q,p,o,n,m,l,k,j,i=this
 switch(a){case"flutter/skia":s=B.J.dJ(b)
 switch(s.a){case"Skia.setResourceCacheMaxBytes":if($.au() instanceof A.rp){r=A.hc(s.b)
-$.aE.a3().gmz()
+$.aE.a4().gmz()
 q=A.fb().a
 q.w=r
 q.vY()}i.cJ(c,B.y.aT([A.a([!0],t.sj)]))
@@ -21101,7 +21101,7 @@ A.UE.prototype={
 bf(){var s=this.b
 if(s===this)throw A.e(new A.eX("Local '"+this.a+"' has not been initialized."))
 return s},
-a3(){var s=this.b
+a4(){var s=this.b
 if(s===this)throw A.e(A.em(this.a))
 return s},
 sbL(a){var s=this
@@ -25026,7 +25026,7 @@ A.qY.prototype={
 u(a){var s=0,r=A.A(t.H),q=this,p,o,n,m
 var $async$u=A.B(function(b,c){if(b===1)return A.x(c,r)
 while(true)switch(s){case 0:q.kr(0)
-p=q.ga4()
+p=q.ga3()
 o=$.a4t()
 n=new A.b(new Float64Array(2))
 n.h(5,0)
@@ -25087,7 +25087,7 @@ A.b1.prototype={
 u(a){var s=0,r=A.A(t.H),q,p=this,o,n
 var $async$u=A.B(function(b,c){if(b===1)return A.x(c,r)
 while(true)switch(s){case 0:s=3
-return A.I(p.ga4().cl$.bG(0,"dino.png"),$async$u)
+return A.I(p.ga3().cl$.bG(0,"dino.png"),$async$u)
 case 3:n=c
 p.am!==$&&A.cv()
 p.am=n
@@ -25113,9 +25113,9 @@ av(a,b){var s,r,q=this
 q.Cm(0,b)
 if(q.k2!==B.aU)q.p0()
 s=q.as.d.a[1]
-r=q.ga4().am
+r=q.ga3().am
 r===$&&A.f()
-if(s>r.iD().a[1])q.ga4().xs()},
+if(s>r.iD().a[1])q.ga3().xs()},
 dQ(a){var s,r=this,q=null
 if(r.az)return
 s=t.i
@@ -25218,7 +25218,7 @@ $0(){var s=this
 return s.a.vU(s.b,s.c,s.d)},
 $S:14}
 A.HM.prototype={
-$0(){this.a.ga4().xs()},
+$0(){this.a.ga3().xs()},
 $S:0}
 A.HN.prototype={
 $0(){var s=this.a
@@ -25308,7 +25308,7 @@ A.p7.prototype={
 u(a){var s=0,r=A.A(t.H),q,p=this,o
 var $async$u=A.B(function(b,c){if(b===1)return A.x(c,r)
 while(true)switch(s){case 0:s=3
-return A.I(p.ga4().cl$.bG(0,"dino.png"),$async$u)
+return A.I(p.ga3().cl$.bG(0,"dino.png"),$async$u)
 case 3:o=c
 p.pA$!==$&&A.cv()
 p.pA$=o
@@ -25340,7 +25340,7 @@ q.i(p)
 return A.y(null,r)}})
 return A.z($async$u,r)},
 dQ(a){var s,r,q,p,o,n=this,m=null
-if(B.co===n.k2){if(n.a2){s=n.ga4().am
+if(B.co===n.k2){if(n.a2){s=n.ga3().am
 s===$&&A.f()
 r=new A.b(new Float64Array(2))
 r.h(12,0)
@@ -25447,7 +25447,7 @@ A.tc.prototype={
 u(a){var s=0,r=A.A(t.H),q=this,p,o
 var $async$u=A.B(function(b,c){if(b===1)return A.x(c,r)
 while(true)switch(s){case 0:s=2
-return A.I(q.ga4().cl$.bG(0,"coin.png"),$async$u)
+return A.I(q.ga3().cl$.bG(0,"coin.png"),$async$u)
 case 2:p=c
 o=new A.b(new Float64Array(2))
 o.ag(32)
@@ -25459,7 +25459,7 @@ return A.y(null,r)}})
 return A.z($async$u,r)},
 b4(a,b){var s,r=null
 this.bs(a,b)
-if(b instanceof A.b1){s=this.ga4().A
+if(b instanceof A.b1){s=this.ga3().A
 s===$&&A.f()
 s=s.P
 s.sF(0,s.a+10)
@@ -25576,7 +25576,7 @@ return A.y(null,r)}})
 return A.z($async$u,r)},
 b4(a,b){var s,r,q
 this.bs(a,b)
-if(b instanceof A.b1){s=this.ga4()
+if(b instanceof A.b1){s=this.ga3()
 r=s.bJ
 q=s.A
 q===$&&A.f()
@@ -25727,21 +25727,21 @@ q.i(p)
 return A.y(null,r)}})
 return A.z($async$u,r)},
 av(a,b){var s=this,r=s.k2
-if(r===!0){r=s.ga4().id
+if(r===!0){r=s.ga3().id
 r===$&&A.f()
 r=r.a
 r.ax=r.ax*(1-b)
-r=s.ga4().id
+r=s.ga3().id
 r===$&&A.f()
-if(r.a.ax<=0.85){r=s.ga4().id
+if(r.a.ax<=0.85){r=s.ga3().id
 r===$&&A.f()
 r.a.ax=0.85
-s.k2=null}}else if(r===!1){r=s.ga4().id
+s.k2=null}}else if(r===!1){r=s.ga3().id
 r===$&&A.f()
 r.a.ax+=b
-r=s.ga4().id
+r=s.ga3().id
 r===$&&A.f()
-if(r.a.ax>=1){r=s.ga4().id
+if(r.a.ax>=1){r=s.ga3().id
 r===$&&A.f()
 r.a.ax=1
 s.k2=null}}},
@@ -25797,7 +25797,7 @@ A.G8.prototype={
 $0(){var s,r,q,p,o,n,m,l,k=null
 if(B.aP.q9())return
 s=this.a
-r=s.ga4()
+r=s.ga3()
 q=new A.b(new Float64Array(2))
 q.h(-20,10)
 q=s.as.d.U(0,q)
@@ -25877,7 +25877,7 @@ A.xP.prototype={
 u(a){var s=0,r=A.A(t.H),q=this,p,o
 var $async$u=A.B(function(b,c){if(b===1)return A.x(c,r)
 while(true)switch(s){case 0:s=2
-return A.I(q.ga4().cl$.bG(0,"knight.png"),$async$u)
+return A.I(q.ga3().cl$.bG(0,"knight.png"),$async$u)
 case 2:p=c
 o=q.as.e
 o.cu(0,-o.a[0])
@@ -25903,7 +25903,7 @@ A.Sc.prototype={
 $0(){var s,r,q,p,o,n,m,l,k=null
 if(B.aP.q9())return
 s=this.a
-r=s.ga4()
+r=s.ga3()
 q=new A.b(new Float64Array(2))
 q.h(-30,10)
 q=s.as.d.U(0,q)
@@ -27564,7 +27564,7 @@ A.tL.prototype={
 u(a){var s=0,r=A.A(t.H),q=this,p,o
 var $async$u=A.B(function(b,c){if(b===1)return A.x(c,r)
 while(true)switch(s){case 0:s=2
-return A.I(q.ga4().cl$.bG(0,"dog.png"),$async$u)
+return A.I(q.ga3().cl$.bG(0,"dog.png"),$async$u)
 case 2:p=c
 o=new A.b(new Float64Array(2))
 o.ag(32)
@@ -27580,7 +27580,7 @@ return A.z($async$u,r)},
 b4(a,b){var s,r,q,p,o=this
 o.bs(a,b)
 if(b instanceof A.b1){if(o.ar)s="Hello, I am dog. Nice to see you again."
-else{r=o.ga4().A
+else{r=o.ga3().A
 r===$&&A.f()
 s=r.P.a<60?"You don't have enough coins for me to help you...":"Hello, I am dog. For 60 coins I can increase your health (press H) or increase your stamina (press S)."}q=A.oj(s)
 r=new A.b(new Float64Array(2))
@@ -27588,7 +27588,7 @@ r.h(30,200)
 p=q.as.d
 p.a5(o.as.d.V(0,r))
 p.I()
-o.ga4().i(q)
+o.ga3().i(q)
 o.a2=q}},
 c4(a){var s
 this.fh(a)
@@ -27596,14 +27596,19 @@ if(a instanceof A.b1){s=this.a2
 if(s!=null)s.bi()
 this.a2=null}},
 dU(a,b){var s,r,q,p,o=this,n=null
-if(a.b||o.a2==null||o.ar){o.fU(a,b)
-return!0}s=a instanceof A.df
-r=a.c
-if(r.gbY().j(0,B.cD))if(s){q=o.ga4().A
+if(!a.b)if(o.a2!=null)if(!o.ar){s=o.ga3().A
+s===$&&A.f()
+s=s.P.a<60}else s=!0
+else s=!0
+else s=!0
+if(s){o.fU(a,b)
+return!0}r=a instanceof A.df
+s=a.c
+if(s.gbY().j(0,B.cD))if(r){q=o.ga3().A
 q===$&&A.f()
 q=q.P
 q.sF(0,q.a-60)
-q=o.ga4().A
+q=o.ga3().A
 q===$&&A.f()
 q.y0(10)
 o.ar=!0
@@ -27616,24 +27621,24 @@ p.h(0,-80)
 q.i(A.e_(A.a([A.cL(p,A.bp(0.6,!1,n,n,0)),A.dg(0)],t.C)))
 o.i(q)
 q=o.a2
-if(q!=null)q.bi()}if(r.gbY().j(0,B.cE))if(s){r=o.ga4().A
-r===$&&A.f()
-r=r.P
-r.sF(0,r.a-60)
-r=o.ga4().A
-r===$&&A.f()
-r.y3(10)
+if(q!=null)q.bi()}if(s.gbY().j(0,B.cE))if(r){s=o.ga3().A
+s===$&&A.f()
+s=s.P
+s.sF(0,s.a-60)
+s=o.ga3().A
+s===$&&A.f()
+s.y3(10)
 o.ar=!0
-r=A.SX(n,n,n,n,n,n,n,"+50",n,t.Cr)
-q=r.as.e
+s=A.SX(n,n,n,n,n,n,n,"+50",n,t.Cr)
+q=s.as.e
 q.cu(0,-q.a[0])
 q.I()
 q=new A.b(new Float64Array(2))
 q.h(0,-80)
-r.i(A.e_(A.a([A.cL(q,A.bp(0.6,!1,n,n,0)),A.dg(0)],t.C)))
-o.i(r)
-r=o.a2
-if(r!=null)r.bi()}return!1}}
+s.i(A.e_(A.a([A.cL(q,A.bp(0.6,!1,n,n,0)),A.dg(0)],t.C)))
+o.i(s)
+s=o.a2
+if(s!=null)s.bi()}return!1}}
 A.A9.prototype={}
 A.Aa.prototype={
 bv(){var s=this.aI$
@@ -27669,7 +27674,7 @@ q.h(30,200)
 p=r.as.d
 p.a5(o.as.d.V(0,q))
 p.I()
-o.ga4().i(r)
+o.ga3().i(r)
 o.ab=r}},
 c4(a){var s
 this.fh(a)
@@ -27680,13 +27685,13 @@ dU(a,b){var s,r,q,p=this
 if(p.ab==null||p.k2!=="free"){p.fU(a,b)
 return!0}s=a instanceof A.df
 r=a.c
-if(r.gbY().j(0,B.cD))if(s){q=p.ga4().A
+if(r.gbY().j(0,B.cD))if(s){q=p.ga3().A
 q===$&&A.f()
 q.y0(20)
 p.a2=!0
 q=p.ab
 if(q!=null)q.bi()
-p.ab=null}if(r.gbY().j(0,B.cE))if(s){r=p.ga4().A
+p.ab=null}if(r.gbY().j(0,B.cE))if(s){r=p.ga3().A
 r===$&&A.f()
 r.y3(20)
 p.a2=!0
@@ -27702,7 +27707,7 @@ A.oI.prototype={
 u(a){var s=0,r=A.A(t.H),q=this,p,o
 var $async$u=A.B(function(b,c){if(b===1)return A.x(c,r)
 while(true)switch(s){case 0:s=2
-return A.I(q.ga4().cl$.bG(0,"dog.png"),$async$u)
+return A.I(q.ga3().cl$.bG(0,"dog.png"),$async$u)
 case 2:p=c
 o=new A.b(new Float64Array(2))
 o.ag(32)
@@ -27723,7 +27728,7 @@ r.h(30,100)
 q=s.as.d
 q.a5(p.as.d.V(0,r))
 q.I()
-p.ga4().i(s)
+p.ga3().i(s)
 p.a2=s}},
 c4(a){var s
 this.fh(a)
@@ -27750,7 +27755,7 @@ A.yt.prototype={
 u(a){var s=0,r=A.A(t.H),q=this,p,o
 var $async$u=A.B(function(b,c){if(b===1)return A.x(c,r)
 while(true)switch(s){case 0:s=2
-return A.I(q.ga4().cl$.bG(0,"turtle.png"),$async$u)
+return A.I(q.ga3().cl$.bG(0,"turtle.png"),$async$u)
 case 2:p=c
 o=new A.b(new Float64Array(2))
 o.ag(32)
@@ -27764,7 +27769,7 @@ return A.z($async$u,r)},
 b4(a,b){var s,r,q,p,o=this
 o.bs(a,b)
 if(b instanceof A.b1){if(o.bh)s="I don't have any more arrows..."
-else{r=o.ga4().A
+else{r=o.ga3().A
 r===$&&A.f()
 s=r.P.a<50?"You don't have enough points":"I can sell you 10 arrows for 50 points. Press Y if you want them..."}q=A.oj(s)
 r=new A.b(new Float64Array(2))
@@ -27772,7 +27777,7 @@ r.h(30,200)
 p=q.as.d
 p.a5(o.as.d.V(0,r))
 p.I()
-o.ga4().i(q)
+o.ga3().i(q)
 o.ar=q
 o.P=b}},
 c4(a){var s,r=this
@@ -27785,7 +27790,7 @@ if(q.ar==null||q.bh){q.fU(a,b)
 return!0}if(a.c.gbY().j(0,B.bE)){if(a.b)return!1
 if(a instanceof A.df){s=q.P
 if(s!=null)s.wx(10)
-s=q.ga4().A
+s=q.ga3().A
 s===$&&A.f()
 s=s.P
 s.sF(0,s.a-50)
@@ -27809,7 +27814,7 @@ A.yP.prototype={
 u(a){var s=0,r=A.A(t.H),q=this,p,o
 var $async$u=A.B(function(b,c){if(b===1)return A.x(c,r)
 while(true)switch(s){case 0:s=2
-return A.I(q.ga4().cl$.bG(0,"white-knight.png"),$async$u)
+return A.I(q.ga3().cl$.bG(0,"white-knight.png"),$async$u)
 case 2:p=c
 o=new A.b(new Float64Array(2))
 o.ag(32)
@@ -27825,10 +27830,10 @@ return A.z($async$u,r)},
 b4(a,b){var s,r,q,p,o=this
 o.bs(a,b)
 if(b instanceof A.b1){if(o.ar)s="I dont have any more swords..."
-else{r=o.ga4().A
+else{r=o.ga3().A
 r===$&&A.f()
 if(r.P.a<50)s="You don't have enough coins for me to sell you a sword..."
-else{r=o.ga4().A
+else{r=o.ga3().A
 r===$&&A.f()
 s=r.hn$.a?"Hello, Hero. I dont have arrows.":"Hello, Hero. I dont have arrows, but i can sell you a sword for 50 coins! (Press Y to buy sword)"}}q=A.oj(s)
 r=new A.b(new Float64Array(2))
@@ -27836,7 +27841,7 @@ r.h(30,200)
 p=q.as.d
 p.a5(o.as.d.V(0,r))
 p.I()
-o.ga4().i(q)
+o.ga3().i(q)
 o.a2=q}},
 c4(a){var s
 this.fh(a)
@@ -27846,10 +27851,10 @@ this.a2=null}},
 dU(a,b){var s,r,q=this,p=null
 if(q.a2==null||q.ar){q.fU(a,b)
 return!0}if(a.c.gbY().j(0,B.bE)){if(a.b)return!1
-if(a instanceof A.df){s=q.ga4().A
+if(a instanceof A.df){s=q.ga3().A
 s===$&&A.f()
 s.hn$.sF(0,!0)
-s=q.ga4().A
+s=q.ga3().A
 s===$&&A.f()
 s=s.P
 s.sF(0,s.a-50)
@@ -27979,10 +27984,10 @@ if(b>0){s=A.mf(A.r7(A.b4(204,0,0,0),1),B.c9,r,B.d8)
 return A.kd(new A.f4(B.hY,A.Pl(A.a([A.dL(""+b,r),A.a_g(B.j,"heart.png")],t.p),B.a3,B.ac),r),s,40,r)}return B.h2},
 $S:27}
 A.FD.prototype={
-Am(){var s=this,r=s.ga4().A
+Am(){var s=this,r=s.ga3().A
 r===$&&A.f()
 if(!r.re(s.JV$))return
-r=s.ga4().A
+r=s.ga3().A
 r===$&&A.f()
 r.k2=B.aU
 r.cA()
@@ -28003,17 +28008,17 @@ if(!(s.a>0))return
 r=new A.b(new Float64Array(2))
 r.h(20,-10)
 r=n.as.d.U(0,r)
-q=n.ga4().A
+q=n.ga3().A
 q===$&&A.f()
 q=q.dl$?1:-1
 p=new A.b(new Float64Array(2))
 p.h(2000*q,0)
 o=A.a0E(p,r)
-r=n.ga4().A
+r=n.ga3().A
 r===$&&A.f()
 if(!r.dl$){r=o.as.e
 r.cu(0,-r.a[0])
-r.I()}n.ga4().i(o)
+r.I()}n.ga3().i(o)
 s.sF(0,s.a-1)
 if(s.a===0){s=n.lH$
 s===$&&A.f()
@@ -28025,10 +28030,10 @@ if(s.a===0){r=this.lH$
 r===$&&A.f()
 this.i(r)}s.sF(0,s.a+a)}}
 A.Hp.prototype={
-Jf(){var s,r=this,q=r.ga4().A
+Jf(){var s,r=this,q=r.ga3().A
 q===$&&A.f()
 if(!q.re(r.JX$))return
-q=r.ga4().A
+q=r.ga3().A
 q===$&&A.f()
 q=q.dl$?100:-100
 s=new A.b(new Float64Array(2))
@@ -28065,7 +28070,7 @@ A.wL.prototype={
 u(a){var s=0,r=A.A(t.H),q=this,p,o
 var $async$u=A.B(function(b,c){if(b===1)return A.x(c,r)
 while(true)switch(s){case 0:s=2
-return A.I(q.ga4().cl$.bG(0,"potion.png"),$async$u)
+return A.I(q.ga3().cl$.bG(0,"potion.png"),$async$u)
 case 2:p=c
 o=new A.b(new Float64Array(2))
 o.ag(32)
@@ -28115,23 +28120,23 @@ this.jD$.sF(0,s.a)}}
 A.SG.prototype={
 CI(){var s,r=this
 if(r.hn$.a===!1)return
-s=r.ga4().A
+s=r.ga3().A
 s===$&&A.f()
 if(!s.re(r.JU$))return
-s=r.ga4().A
+s=r.ga3().A
 s===$&&A.f()
 s.i9$=!1
 s.ek$.scM(0,0)
-s=r.ga4().A
+s=r.ga3().A
 s===$&&A.f()
 s.k2=B.cs
 s.cA()},
 CH(){var s,r,q,p,o,n,m=this,l=null
 if(m.hn$.a===!1)return
-s=m.ga4().A
+s=m.ga3().A
 s===$&&A.f()
 if(s.k2!==B.cs)return
-s=m.ga4().A
+s=m.ga3().A
 s===$&&A.f()
 s.k2=B.hO
 s.cA()
@@ -28778,7 +28783,7 @@ if(r!=null)return r.$1(b)
 return!0}}
 A.Bc.prototype={}
 A.at.prototype={
-ga4(){var s,r=this,q=r.aI$
+ga3(){var s,r=this,q=r.aI$
 if(q==null){s=r.bv()
 s.toString
 q=r.aI$=A.r(r).l("at.T").a(s)}return q}}
@@ -28810,7 +28815,7 @@ A.nP.prototype={
 f5(a){var s,r,q=this
 q.B_(a)
 if(!q.k3)return
-s=q.ga4().id
+s=q.ga3().id
 s===$&&A.f()
 s=s.a.a.a
 s.toString
@@ -29633,11 +29638,11 @@ A.x4.prototype={
 bl(a){var s=new A.mS(a,this.d,!0,A.bs())
 s.bt()
 return s},
-bz(a,b){b.sa4(this.d)
+bz(a,b){b.sa3(this.d)
 b.A=a
 b.scH(!0)}}
 A.mS.prototype={
-sa4(a){var s,r=this
+sa3(a){var s,r=this
 if(r.al===a)return
 if(r.b!=null)r.uj()
 r.al=a
