@@ -4,9 +4,10 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "version.json": "32473dccdada1962730c42a4b45adb5b",
-"index.html": "2f67d0a7b54c9f597f40bf3cbf0ac548",
-"/": "2f67d0a7b54c9f597f40bf3cbf0ac548",
+"index.html": "fe7e1ebc48e6cf7270ea7eec46971f4c",
+"/": "fe7e1ebc48e6cf7270ea7eec46971f4c",
 "main.dart.js": "d79f549ca7846c4ccbaa168176ebc8f2",
+"flutter.js": "a85fcf6324d3c4d3ae3be1ae4931e9c5",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
@@ -71,7 +72,11 @@ const RESOURCES = {
 "assets/assets/images/bg.png": "1ba5a6a230e340750e48152b3fac6978",
 "assets/assets/images/brick.png": "c0e72fb798c22b85127e0322b559463f",
 "assets/assets/images/happy-e.png": "0403ab7e178530dc6334b17ddc021508",
-"assets/assets/images/banner01.png": "737e2dc2d2f430104dd70c1e472fffa5"
+"assets/assets/images/banner01.png": "737e2dc2d2f430104dd70c1e472fffa5",
+"canvaskit/canvaskit.js": "97937cb4c2c2073c968525a3e08c86a3",
+"canvaskit/profiling/canvaskit.js": "c21852696bc1cc82e8894d851c01921a",
+"canvaskit/profiling/canvaskit.wasm": "371bc4e204443b0d5e774d64a046eb99",
+"canvaskit/canvaskit.wasm": "3de12d898ec208a5f31362cc00f09b9e"
 };
 
 // The application shell files that are downloaded before a service worker can
