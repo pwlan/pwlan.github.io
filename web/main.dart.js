@@ -25994,7 +25994,7 @@ c=$.aB()
 c=new A.aH(c,new Float64Array(2))
 c.a5(d)
 c.I()
-p=new A.b1(null,p,$,50,!1,n,m,l,40,k,j,i,$,null,40,h,50,0,null,g,10,!1,!0,!0,!0,!0,!1,null,null,null,null,null,B.ab,B.nh,null,!0,!1,$,f,null,e,c,B.j,3,new A.L([]),new A.L([]))
+p=new A.b1(null,p,$,50,!1,n,m,l,40,k,j,i,$,null,40,h,50,5,null,g,10,!1,!0,!0,!0,!0,!1,null,null,null,null,null,B.ab,B.nh,null,!0,!1,$,f,null,e,c,B.j,3,new A.L([]),new A.L([]))
 p.ao(B.j,null,null,0,b,3,null,o)
 p.D6(B.j,null,null,null,null,B.ab,0,null,!0,b,3,B.nh,null,o)
 q.A=p
@@ -28178,7 +28178,7 @@ m.G(0,A.a([q],t.i))}}
 A.SL.prototype={
 $0(){var s,r,q=null,p=this.a
 if(--p.xz$<0){p.fz$.sE(0,!1)
-p.xz$=0
+p.xz$=5
 s=A.y9(q,q,q,q,q,q,q,"-1 Sword",q,t.Cr)
 r=new A.b(new Float64Array(2))
 r.h(0,-80)
