@@ -4,9 +4,9 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "version.json": "32473dccdada1962730c42a4b45adb5b",
-"index.html": "e14876bc39b85a1717e35a794af7bab3",
-"/": "e14876bc39b85a1717e35a794af7bab3",
-"main.dart.js": "69a4997eb1ec3e59571672b1e8e72530",
+"index.html": "97e58d5a76a659e967f45ced836a5974",
+"/": "97e58d5a76a659e967f45ced836a5974",
+"main.dart.js": "6059517075f7d4089e2d384a2fb64f53",
 "flutter.js": "a85fcf6324d3c4d3ae3be1ae4931e9c5",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
@@ -22,7 +22,7 @@ const RESOURCES = {
 "assets/fonts/MaterialIcons-Regular.otf": "e7069dfd19b331be16bed984668fe080",
 "assets/assets/images/duck.png": "9380e945816ecf008f8ef2eda96a650b",
 "assets/assets/images/dog.png": "62d744c10f4451c636a75a001dec72e9",
-"assets/assets/images/strike.png": "1c595939dd300f3014cf668ef8dfa5af",
+"assets/assets/images/strike.png": "c8d8939f5259433ccbeeb2329232fd83",
 "assets/assets/images/sword-case.png": "f84f5cdd1f2248fe050f445665c560b6",
 "assets/assets/images/turtle.png": "f545ee2a90506f0625aa421cbe4a4d30",
 "assets/assets/images/flag.png": "671d957f9a025795fa52e3ac315c23cc",
